@@ -4,7 +4,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const ENTRY =
-  "Your lucky numbers are 404, 500, and the one token you have left.";
+  "Your lucky numbers are 404, 500, and the single token you have left — spend it on a wish, not a retry.";
 
 if (ENTRY.length < 1 || ENTRY.length > 140) {
   throw new Error(`entry is ${ENTRY.length} chars, must be 1-140`);
